@@ -5,7 +5,7 @@ import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/Card';
 import { theatreService, hallService, showService } from '../services/api';
-import type { TheatreOwner, Theatre, Hall, Show, SeatType, Currency } from '../types';
+import type { TheatreOwner, SeatType, Currency } from '../types';
 
 export const OwnerDashboard: React.FC = () => {
   const navigate = useNavigate();

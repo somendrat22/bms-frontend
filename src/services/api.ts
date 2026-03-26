@@ -1,7 +1,6 @@
 import axios from 'axios';
 import type {
   RegisterUserRequest,
-  User,
   Customer,
   TheatreOwner,
   Theatre,
